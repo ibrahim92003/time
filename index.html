@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="time" onload="showtime()"></div>
+    <h1>Log in</h1>
+<section>  
+    <span id="error"></span>
+    <form action="index.html" onsubmit="return validit();">
+        <div>
+            <label for="name">name</label>
+            <input class="input" type="text" id="name" name="name" placeholder="enter your name">
+        </div>
+        <div>
+            <label for="phone">phone number</label>
+            <input class="input" type="text" id="phone" name="phone"placeholder="enter your phone">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input class="input" type="email" id="email" name="email"placeholder="enter your email">
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input class="input" type="password" id="password" name="password"placeholder="enter your password">
+        </div>
+    <input class="submit" type="submit" value="Submit">
+</form></section>
+    <script src="main.js"></script>
+</body>
+</html>
