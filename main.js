@@ -76,6 +76,8 @@ function validit(){
 
 }
 
+document.getElementById("toggle").style.display ="none";
+
 function closeopen(){
     let button = document.getElementById("toggle");
     if (button.style.display == "none"){
