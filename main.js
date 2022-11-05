@@ -78,7 +78,7 @@ function validit(){
 
 function closeopen(){
     let button = document.getElementById("toggle");
-    if (button.style.display === "none"){
+    if (button.style.display == "none"){
         button.style.display = "block";
     }
     else{
